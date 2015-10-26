@@ -4,7 +4,7 @@
  <title>Joseph Michaels</title>
  <link href="http://teshel.github.io/atom.xml" rel="self"/>
  <link href="http://teshel.github.io/"/>
- <updated>2015-10-26T14:25:32-07:00</updated>
+ <updated>2015-10-26T14:30:08-07:00</updated>
  <id>http://teshel.github.io</id>
  <author>
    <name>Joseph Michaels</name>
@@ -17,9 +17,9 @@
    <link href="http://teshel.github.io/2015/10/26/setting-up-github-pages-jekyll-and-poole/"/>
    <updated>2015-10-26T00:00:00-07:00</updated>
    <id>http://teshel.github.io/2015/10/26/setting-up-github-pages-jekyll-and-poole</id>
-   <content type="html">&lt;p&gt;Yesterday and today I’ve been working on setting up this Github Pages site as a blog and a showcase for my personal projects. Behind Github Pages is &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, a simple static site generator that seems very fitting for this purpose. It takes plaintext files and transforms them into static files that are served to the web.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Yesterday and today I’ve been working on setting up this Github Pages site as a blog and a showcase for my personal projects. Behind Github Pages is &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, a simple static site generator that seems very fitting for this purpose. It takes plaintext files and transforms them into static files that are served to the web. Portions of the site, such as blog posts like this one, can be written in Markdown or Textile.&lt;/p&gt;
 
-&lt;p&gt;Jekyll comes very bare-bones, and while reading the &lt;a href=&quot;http://jekyllrb.com/docs/structure/&quot;&gt;directory structure&lt;/a&gt; in the docs gives you a good idea how to set it up, it doesn’t provide a quick base to begin with. Thankfully, Mark Otto created a basic setup called [Poole] that &lt;/p&gt;
+&lt;p&gt;Jekyll comes very bare-bones, and while reading the &lt;a href=&quot;http://jekyllrb.com/docs/structure/&quot;&gt;directory structure&lt;/a&gt; in the docs gives you a good idea how to set it up, it doesn’t provide a quick base to begin with. Thankfully, Mark Otto created a basic setup called &lt;a href=&quot;http://getpoole.com/&quot;&gt;Poole&lt;/a&gt; that has a minimalist style done in &lt;a href=&quot;http://sass-lang.com/&quot;&gt;SASS&lt;/a&gt; and includes example posts as well as a bunch of other stuff.&lt;/p&gt;
 </content>
  </entry>
  

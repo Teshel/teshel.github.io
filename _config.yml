@@ -6,9 +6,9 @@ relative_permalinks: true
 
 # Setup
 title:               Joseph Michaels
-tagline:             
+tagline:
 url:                 http://teshel.github.io
-paginate:            1
+paginate:            3
 baseurl:             ""
 
 # Assets

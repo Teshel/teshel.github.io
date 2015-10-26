@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title></title>
- <link href="/atom.xml" rel="self"/>
- <link href="/"/>
- <updated>2015-10-26T13:30:16-07:00</updated>
- <id></id>
+ <title>Joseph Michaels</title>
+ <link href="http://teshel.github.io/atom.xml" rel="self"/>
+ <link href="http://teshel.github.io/"/>
+ <updated>2015-10-26T14:25:32-07:00</updated>
+ <id>http://teshel.github.io</id>
  <author>
-   <name></name>
-   <email></email>
+   <name>Joseph Michaels</name>
+   <email>jmichaels@gmail.com</email>
  </author>
 
  
  <entry>
+   <title>Setting up Github Pages, Jekyll, and Poole</title>
+   <link href="http://teshel.github.io/2015/10/26/setting-up-github-pages-jekyll-and-poole/"/>
+   <updated>2015-10-26T00:00:00-07:00</updated>
+   <id>http://teshel.github.io/2015/10/26/setting-up-github-pages-jekyll-and-poole</id>
+   <content type="html">&lt;p&gt;Yesterday and today I’ve been working on setting up this Github Pages site as a blog and a showcase for my personal projects. Behind Github Pages is &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, a simple static site generator that seems very fitting for this purpose. It takes plaintext files and transforms them into static files that are served to the web.&lt;/p&gt;
+
+&lt;p&gt;Jekyll comes very bare-bones, and while reading the &lt;a href=&quot;http://jekyllrb.com/docs/structure/&quot;&gt;directory structure&lt;/a&gt; in the docs gives you a good idea how to set it up, it doesn’t provide a quick base to begin with. Thankfully, Mark Otto created a basic setup called [Poole] that &lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Introducing Poole</title>
-   <link href="/2014/01/02/introducing-poole.html"/>
+   <link href="http://teshel.github.io/2014/01/02/introducing-poole/"/>
    <updated>2014-01-02T00:00:00-08:00</updated>
-   <id>/2014/01/02/introducing-poole</id>
+   <id>http://teshel.github.io/2014/01/02/introducing-poole</id>
    <content type="html">&lt;p&gt;&lt;em&gt;The Strange Case of Dr. Jekyll and Mr. Hyde&lt;/em&gt; tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -61,9 +72,9 @@
  
  <entry>
    <title>Example content</title>
-   <link href="/2014/01/01/example-content.html"/>
+   <link href="http://teshel.github.io/2014/01/01/example-content/"/>
    <updated>2014-01-01T00:00:00-08:00</updated>
-   <id>/2014/01/01/example-content</id>
+   <id>http://teshel.github.io/2014/01/01/example-content</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
@@ -240,9 +251,9 @@
  
  <entry>
    <title>What's Jekyll?</title>
-   <link href="/2013/12/31/whats-jekyll.html"/>
+   <link href="http://teshel.github.io/2013/12/31/whats-jekyll/"/>
    <updated>2013-12-31T00:00:00-08:00</updated>
-   <id>/2013/12/31/whats-jekyll</id>
+   <id>http://teshel.github.io/2013/12/31/whats-jekyll</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;

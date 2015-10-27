@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Issues while setting up, Part I"
-date: "2015-10-26"
+date: "2015-10-26 5:00 PM"
 ---
 Learning the ins and outs of Git and Github have been on my to-do list for several years now. Basic operations seem fairly straightforward, but my knowledge is very shallow at this point, and I'm still getting used to SourceTree. I'm not clear on what the difference between staged files, unstaged files, and tracked files is, and what "Stop Tracking" does -- is it different from "Remove"?
 

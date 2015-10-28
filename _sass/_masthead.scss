@@ -12,6 +12,7 @@
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  float: left;
 
   a {
     color: #505050;
@@ -23,4 +24,21 @@
     color: #c0c0c0;
     letter-spacing: 0;
   }
+}
+
+.masthead-navbar {
+    margin-top: 0;
+    margin-bottom: 0;
+    float: right;
+
+    a {
+        color: #505050;
+        padding: 0.5rem;
+    }
+
+    a.active {
+
+
+        background-color: cyan;
+    }
 }

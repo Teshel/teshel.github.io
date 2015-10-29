@@ -34,14 +34,14 @@
     a {
         color: #505050;
         padding: 0.5rem;
+        
+        border-radius: 0.5rem;
         span {
             padding: 0rem;
         }
     }
 
     a.active {
-
-
-        background-color: cyan;
+        background-color: #258D82;
     }
 }

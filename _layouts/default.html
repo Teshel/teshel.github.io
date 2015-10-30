@@ -4,22 +4,35 @@
   {% include head.html %}
 
   <body>
-
     <div class="container content">
       <header class="masthead">
         <h4 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-                <!--<small>{{ site.tagline }}</small>-->
+            <span class="masthead-site-title">{{ site.title }}</span><span class="masthead-section-title">{% if page.title == 'About Me' %}About<span class="hide-on-mobile"> Me</span>{% else %}{{ page.title }}{% endif %}</span>
+            <!-- {% if page.title == 'Blog' %}
+            <a href="{{ site.baseurl }}/" title="Blog">Blog</a>
+            {% else if page.title == 'Projects' %}
+            <a href="{{ site.baseurl }}/projects/" title="Projects">Projects</a>
+            {% else if page.title == 'About Me' %}
+            <a href="{{ site.baseurl }}/about" >About<span class="hide-on-mobile">Me</span></a>
+            {% endif %} -->
         </h4>
         <h4 class="masthead-navbar">
-            <a href="{{ site.baseurl }}/" {% if page.title == 'Home' %}class="active"{% endif %}>Blog</a>
+            {% if page.title != 'Blog' %}
+            <a href="{{ site.baseurl }}/" title="Blog">Blog</a>
+            {% endif %}
+            {% if page.title != 'Projects' %}
+            <a href="{{ site.baseurl }}/projects/" title="Projects">Projects</a>
+            {% endif %}
+            {% if page.title != 'About Me' %}
+            <a href="{{ site.baseurl }}/about" >About<span class="hide-on-mobile">Me</span></a>
+            {% endif %}
+            <!-- <a href="{{ site.baseurl }}/" {% if page.title == 'Home' %}class="active"{% endif %}>Blog</a>
             <a href="{{ site.baseurl }}/projects/" {% if page.title == 'Projects' %}class="active"{% endif %}>Projects</a>
-            <a href="{{ site.baseurl }}/about" {% if page.title == 'About Me' %}class="active"{% endif %}>About<span class="hide-on-mobile"> Me</span></a>
+            <a href="{{ site.baseurl }}/about" {% if page.title == 'About Me' %}class="active"{% endif %}>About<span class="hide-on-mobile"> Me</span></a> -->
         </h4>
       </header>
 
       <main>
-
         {{ content }}
       </main>
 

@@ -3,7 +3,7 @@ layout: default
 title: Computer Parts
 ---
 
-Team project I did for a databases class. Other team members designed the idea of a site where you can spec out a computer system from a list of possible parts. `Java` `Play! Framework` `jQueryUI`
+Team project I did for a databases class. We designed the idea of a site where you can spec out a computer system from a list of possible parts. I already had some experience making a MVC web app in Ruby on Rails, but we primarily used Java in class and the other team members didn't know Ruby, so I chose Java and the Play! framework. I ended up doing virtually all of the coding. `Java` `Play! Framework` `jQueryUI`
 
 [Demo Site](
-http://quiet-fog-7679.herokuapp.com) [Source Code](https://github.com/Teshel/ICS-311-Implementation-Project-3)
+http://quiet-fog-7679.herokuapp.com) &nbsp; &nbsp; [Source Code](https://github.com/Teshel/ICS-311-Implementation-Project-3)

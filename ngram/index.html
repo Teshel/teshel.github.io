@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+	<title>N-Gram Model for random name generation</title>
+	<script type="text/javascript" src="json2.js"></script>
+    <style type="text/css" media="Screen">
+        body {
+            font-family: 'Verdana';
+            font-size: 14px;
+        }
+
+        .corpus {
+            float: left;
+            margin-right: 0.5em;
+            
+            border: 2px solid aliceblue;
+        }
+
+        .corpus.selected {
+            border: 2px solid lightblue;
+        }
+
+        .corpus .header {
+            width: 100%;
+            overflow: hidden;
+            background-color: aliceblue;
+            display: inline-block;
+            cursor: pointer; cursor: hand;
+        }
+
+        .corpus.selected .header {
+            background-color: lightblue;
+        }
+
+        * .space {
+            margin-left: 2em;
+        }
+
+        #corpuses {
+            float: left;
+            width: 335px;
+        }
+
+        #corpusesAdd {
+            font-size: 30px;
+            text-align: center;
+            float: left;
+            width: 335px;
+        }
+
+        #info_panel {
+            padding: 5px;
+            min-height: 300px;
+            margin-left: 340px;
+            border: 3px solid aliceblue;
+        }
+
+        #corpus_title {
+            padding: 0.2em;
+            border: 1px solid lightblue;
+            background-color: lightblue;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h3>N-Gram Random Name Generator</h2>
+    </div>
+
+	<div style="width: 100%; overflow: hidden;">
+        <div id="corpuses"></div>
+<!--         <div class="corpus selected" id="female_select_box">
+            <div class="header" id="female_select_button">Female names</div>
+            <br/>
+            <textarea rows="21" cols="20" id="corpus_textarea_female"></textarea>
+        </div>
+    	<div class="corpus" id="male_select_box">
+            <div class="header" id="male_select_button">Male names</div>
+            <br/>
+    		<textarea rows="21" cols="20" id="corpus_textarea_male"></textarea>
+    	</div> -->
+        <!-- <div id="corpusesAdd">+</div> -->
+    	<div id="info_panel">
+            <p>
+        		<select id="model_size">
+        			<option value="3">3</option>
+        			<option value="4">4</option>
+        			<option value="5">5</option>
+        		</select>
+        		gram model for <span id="corpus_title">Female names</span>
+            </p>
+            <p>
+                <input type="button" id="generate_button" value="Generate Name(s)" />
+                <span class="space"/>
+                max length: <input type="textfield" id="generate_min" size="2" value="5" /> to 
+                <input type="textfield" id="generate_max" size="2" value="8" />
+                <span class="space" />
+                count: <input type="textfield" id="count" size="2" value="10" />
+            </p>
+    		<div id="output_div" style="padding: 1em"></div>
+    	</div>
+	</div>
+	<script type="text/javascript" src="ngram.js"></script>
+</body>
+</html>

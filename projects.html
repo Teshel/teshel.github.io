@@ -5,7 +5,7 @@ title: Projects
 
 <div class="posts">
     {% assign sorted_projects = site.projects | sort:"order" %}
-  {% for project in site.projects %}
+  {% for sorted_projects in site.projects %}
   <article class="post">
     <h3 class="post-title">
       <!-- <a href="{{ site.baseurl }}{{ project.url }}"> -->

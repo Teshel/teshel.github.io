@@ -19,6 +19,10 @@
   margin-top: 0;
 }
 
+article p:first-child {
+    margin-top: 18px;
+}
+
 .post-title span:first-child {
     float: left;
 }
